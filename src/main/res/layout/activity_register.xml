@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white">
+
+    <!-- Inner horizontal LinearLayout for side-by-side buttons -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnRegisterStudent"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/studentpic"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:contentDescription="Register Student"
+            android:layout_margin="30dp" />
+
+        <ImageButton
+            android:id="@+id/btnRegisterCourse"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/teacherpic"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:contentDescription="Register Course"
+            android:layout_margin="30dp" />
+    </LinearLayout>
+
+</LinearLayout>

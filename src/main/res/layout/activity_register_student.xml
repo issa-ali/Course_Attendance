@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white">
+
+    <ImageView
+        android:id="@+id/capturedImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="16dp"
+        android:src="@android:drawable/ic_menu_camera" />
+
+    <!-- Input for Name -->
+    <EditText
+        android:id="@+id/inputName"
+        android:hint="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888"
+        android:padding="12dp" />
+
+    <!-- Input for ID -->
+    <EditText
+        android:id="@+id/inputID"
+        android:hint="Enter ID"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888"
+        android:padding="12dp" />
+
+    <!-- Button to take selfie -->
+    <Button
+        android:id="@+id/btnTakeSelfie"
+        android:text="Take Selfie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+    <!-- Button to submit -->
+    <Button
+        android:id="@+id/btnDoneStudent"
+        android:text="Done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+</LinearLayout>

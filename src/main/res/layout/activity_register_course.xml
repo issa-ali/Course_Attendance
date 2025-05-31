@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white">
+
+        <EditText android:id="@+id/courseName"
+            android:hint="Course Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#888888" />
+
+        <EditText android:id="@+id/professorName"
+            android:hint="Professor Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888" />
+
+        <EditText android:id="@+id/courseDay"
+            android:hint="Day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888" />
+
+        <EditText android:id="@+id/startTime"
+            android:hint="Start Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888" />
+
+        <EditText android:id="@+id/endTime"
+            android:hint="End Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888" />
+
+        <Button android:id="@+id/btnDoneCourse"
+            android:text="Done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp" />
+    </LinearLayout>
+</ScrollView>

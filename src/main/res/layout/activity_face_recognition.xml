@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/white">
+
+    <!-- ImageView for displaying the captured selfie -->
+    <ImageView
+        android:id="@+id/capturedImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button to capture a selfie -->
+
+    <!-- Button to submit attendance -->
+
+    <Button
+        android:id="@+id/btnCaptureSelfie"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:text="Capture Selfie" />
+
+    <Button
+        android:id="@+id/btnSubmitAttendance"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:text="Submit Attendance" />
+
+</LinearLayout>

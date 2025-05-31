@@ -1,0 +1,28 @@
+<resources>
+    <!-- New theme for hiding status bar -->
+    <style name="Theme.Course_Attendance.NoStatusBar" parent="Theme.Course_Attendance">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- For newer Android versions -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <!-- Optional: If you want to hide action bar too -->
+    <style name="Theme.Course_Attendance.FullScreen" parent="Theme.Course_Attendance.NoStatusBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+</resources>
